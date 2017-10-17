@@ -1,0 +1,49 @@
+/*Selector universal*/
+*{
+    font-family: verdana;
+}
+
+/*Selector de elemento
+img {
+    width: 400px;
+}*/
+
+/*Selector de id*/
+#red{
+    color: red;
+}
+
+#green{
+    color: green;
+}
+
+#blue{
+    color: blue;
+}
+
+#orange{
+    color: orange;
+}
+
+/*Selector de clase*/
+.title {
+    font-family: sans-serif;
+    color: purple;
+}
+/*Pseudo-selectores*/
+.title:hover{
+    color: red;
+}
+img[]
+
+/*Selector descendiente,a todas las imagenes dentro de un div
+div img{
+    width: 400px;
+}*/
+
+/*Si solo se le coloca al div un id,se especifica que dentro de ese div, 
+solo llame a las img dentro de ese div*/
+#container-image img{
+    width: 300px;
+}
+
